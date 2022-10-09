@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: publish
 
+toc: true
 website:
   title: "Tian's blog"
   navbar:

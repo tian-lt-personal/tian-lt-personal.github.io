@@ -1,0 +1,54 @@
+---
+title: "SEIRP: search engines - information retrieval in practice"
+author: "Tian L."
+date: "2022-10-09"
+reference-doc: https://en.wikipedia.org/wiki/Zipf%27s_law
+categories: [SEIRP]
+title-block-banner: false
+---
+
+*Search engines - information retrieval in practice* is a recommended book that shows a complete picture of search engine (web search, especially) and deliver detailed deep-dive into each engine components.
+
+I would like to use a category called ***SEIRP*** to mark the posts about the book.
+
+[[toc]]
+
+## Chapters in SEIRP
+1. Search Engines and Infromation Retrieval
+1. Architecture of a Search Engine
+1. Crawls and Feeds
+1. Processing Text
+1. Ranking with Indexes
+1. Queries and Interfaces
+1. Retrieval Models
+1. Evaluating Search Engines
+1. Classification and Clustering
+1. Social Search
+1. Beyong Bag of Words
+
+## Chapters that I would like to hightlight
+
+### Chapter 2 - Architecture of a Search Engine
+This chapter breaks down a search engine into well-define pieces, they are ***Text Acquisition, Text Transformation, Index Creation, User Interaction, Ranking, Evaluation***.
+
+We can imagine a search pipeline like below picture:
+
+```{mermaid}
+flowchart TD
+info(Information Contents)
+usr(End User)
+crlr(Crawler)
+cp(Content Processer)
+idx[(Search Index)]
+qry(Query Interface)
+anly(Analsis)
+
+info --> crlr
+crlr --> cp
+cp --> idx
+idx --> qry
+cp -.-> anly
+qry -.->anly
+anly --> qry
+qry --> usr
+```
