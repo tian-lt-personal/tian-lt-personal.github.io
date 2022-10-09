@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: publish
+
+website:
+  title: "Tian's blog"
+  navbar:
+    background: light
+    foreground: dark
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/tian-lt-personal
+format:
+  html:
+    theme: lumen
+    css: styles.css
+
+
+
