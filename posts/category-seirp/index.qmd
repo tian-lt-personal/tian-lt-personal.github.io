@@ -11,8 +11,6 @@ title-block-banner: false
 
 I would like to use a category called ***SEIRP*** to mark the posts about the book.
 
-[[toc]]
-
 ## Chapters in SEIRP
 1. Search Engines and Infromation Retrieval
 1. Architecture of a Search Engine
