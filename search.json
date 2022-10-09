@@ -2,9 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About me",
     "section": "",
-    "text": "About this blog"
+    "text": "Hi, I’m Tian, a software engine working at Microsoft."
   },
   {
     "objectID": "index.html",
@@ -18,7 +18,7 @@
     "href": "posts/category-seirp/index.html",
     "title": "SEIRP: search engines - information retrieval in practice",
     "section": "",
-    "text": "Search engines - information retrieval in practice is a recommended book that shows a complete picture of search engine (web search, especially) and deliver detailed deep-dive into each engine components.\nI would like to use a category called SEIRP to mark the posts about the book.\n[[toc]]"
+    "text": "Search engines - information retrieval in practice is a recommended book that shows a complete picture of search engine (web search, especially) and deliver detailed deep-dive into each engine components.\nI would like to use a category called SEIRP to mark the posts about the book."
   },
   {
     "objectID": "posts/category-seirp/index.html#chapters-in-seirp",
