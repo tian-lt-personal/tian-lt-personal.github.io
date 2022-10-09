@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Tian L.">
-<meta name="dcterms.date" content="2022-10-08">
+<meta name="dcterms.date" content="2022-10-09">
 
-<title>Tian’s blog - Getting started with personal blog</title>
+<title>Tian’s blog - SEIRP: search engines - information retrieval in practice</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -60,6 +60,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -100,15 +103,28 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#chapters-in-seirp" id="toc-chapters-in-seirp" class="nav-link active" data-scroll-target="#chapters-in-seirp">Chapters in SEIRP</a></li>
+  <li><a href="#chapters-that-i-would-like-to-hightlight" id="toc-chapters-that-i-would-like-to-hightlight" class="nav-link" data-scroll-target="#chapters-that-i-would-like-to-hightlight">Chapters that I would like to hightlight</a>
+  <ul class="collapse">
+  <li><a href="#chapter-2---architecture-of-a-search-engine" id="toc-chapter-2---architecture-of-a-search-engine" class="nav-link" data-scroll-target="#chapter-2---architecture-of-a-search-engine">Chapter 2 - Architecture of a Search Engine</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Getting started with personal blog</h1>
-</div>
+<h1 class="title">SEIRP: search engines - information retrieval in practice</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">SEIRP</div>
+  </div>
+  </div>
 
 
 
@@ -124,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 8, 2022</p>
+      <p class="date">October 9, 2022</p>
     </div>
   </div>
     
@@ -133,11 +149,64 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Hello everyone, I’m Tian. A software engineer working at Microsoft.</p>
-<p>This is my personal blog. I’d like to make it a technical notebook that records interesting ideas I read, I’m thinking, and to share with you.</p>
-<p><em>October, 2022</em></p>
+<p><em>Search engines - information retrieval in practice</em> is a recommended book that shows a complete picture of search engine (web search, especially) and deliver detailed deep-dive into each engine components.</p>
+<p>I would like to use a category called <strong><em>SEIRP</em></strong> to mark the posts about the book.</p>
+<p>[[toc]]</p>
+<section id="chapters-in-seirp" class="level2">
+<h2 class="anchored" data-anchor-id="chapters-in-seirp">Chapters in SEIRP</h2>
+<ol type="1">
+<li>Search Engines and Infromation Retrieval</li>
+<li>Architecture of a Search Engine</li>
+<li>Crawls and Feeds</li>
+<li>Processing Text</li>
+<li>Ranking with Indexes</li>
+<li>Queries and Interfaces</li>
+<li>Retrieval Models</li>
+<li>Evaluating Search Engines</li>
+<li>Classification and Clustering</li>
+<li>Social Search</li>
+<li>Beyong Bag of Words</li>
+</ol>
+</section>
+<section id="chapters-that-i-would-like-to-hightlight" class="level2">
+<h2 class="anchored" data-anchor-id="chapters-that-i-would-like-to-hightlight">Chapters that I would like to hightlight</h2>
+<section id="chapter-2---architecture-of-a-search-engine" class="level3">
+<h3 class="anchored" data-anchor-id="chapter-2---architecture-of-a-search-engine">Chapter 2 - Architecture of a Search Engine</h3>
+<p>This chapter breaks down a search engine into well-define pieces, they are <strong><em>Text Acquisition, Text Transformation, Index Creation, User Interaction, Ranking, Evaluation</em></strong>.</p>
+<p>We can imagine a search pipeline like below picture:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-1">flowchart TD
+info(Information Contents)
+usr(End User)
+crlr(Crawler)
+cp(Content Processer)
+idx[(Search Index)]
+qry(Query Interface)
+anly(Analsis)
+
+info --&gt; crlr
+crlr --&gt; cp
+cp --&gt; idx
+idx --&gt; qry
+cp -.-&gt; anly
+qry -.-&gt;anly
+anly --&gt; qry
+qry --&gt; usr
+</pre>
+<div id="mermaid-tooltip-1" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

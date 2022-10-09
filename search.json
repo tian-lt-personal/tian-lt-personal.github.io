@@ -11,7 +11,28 @@
     "href": "index.html",
     "title": "Tian's blog",
     "section": "",
-    "text": "Oct 9, 2022\n\n\nTian L.\n\n\n\n\n\n\nNo matching items"
+    "text": "SEIRP\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2022\n\n\nTian L.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnote\n\n\nSEIRP\n\n\ndraft\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2022\n\n\nTian L.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct 8, 2022\n\n\nTian L.\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/category-seirp/index.html",
+    "href": "posts/category-seirp/index.html",
+    "title": "SEIRP: search engines - information retrieval in practice",
+    "section": "",
+    "text": "Search engines - information retrieval in practice is a recommended book that shows a complete picture of search engine (web search, especially) and deliver detailed deep-dive into each engine components.\nI would like to use a category called SEIRP to mark the posts about the book.\n[[toc]]"
+  },
+  {
+    "objectID": "posts/category-seirp/index.html#chapters-in-seirp",
+    "href": "posts/category-seirp/index.html#chapters-in-seirp",
+    "title": "SEIRP: search engines - information retrieval in practice",
+    "section": "Chapters in SEIRP",
+    "text": "Chapters in SEIRP\n\nSearch Engines and Infromation Retrieval\nArchitecture of a Search Engine\nCrawls and Feeds\nProcessing Text\nRanking with Indexes\nQueries and Interfaces\nRetrieval Models\nEvaluating Search Engines\nClassification and Clustering\nSocial Search\nBeyong Bag of Words"
+  },
+  {
+    "objectID": "posts/category-seirp/index.html#chapters-that-i-would-like-to-hightlight",
+    "href": "posts/category-seirp/index.html#chapters-that-i-would-like-to-hightlight",
+    "title": "SEIRP: search engines - information retrieval in practice",
+    "section": "Chapters that I would like to hightlight",
+    "text": "Chapters that I would like to hightlight\n\nChapter 2 - Architecture of a Search Engine\nThis chapter breaks down a search engine into well-define pieces, they are Text Acquisition, Text Transformation, Index Creation, User Interaction, Ranking, Evaluation.\nWe can imagine a search pipeline like below picture:\n\n\n\n\nflowchart TD\ninfo(Information Contents)\nusr(End User)\ncrlr(Crawler)\ncp(Content Processer)\nidx[(Search Index)]\nqry(Query Interface)\nanly(Analsis)\n\ninfo --> crlr\ncrlr --> cp\ncp --> idx\nidx --> qry\ncp -.-> anly\nqry -.->anly\nanly --> qry\nqry --> usr"
   },
   {
     "objectID": "posts/getting-started-with-personal-blog/index.html",
@@ -19,5 +40,12 @@
     "title": "Getting started with personal blog",
     "section": "",
     "text": "This is my personal blog. I’d like to make it a technical notebook that records interesting ideas I read, I’m thinking, and to share with you.\nOctober, 2022"
+  },
+  {
+    "objectID": "posts/zipf_s-law/index.html",
+    "href": "posts/zipf_s-law/index.html",
+    "title": "Zipf’s law (draft)",
+    "section": "",
+    "text": "\\[\nf(k; s, N) = \\frac{1/k^s}{\\displaystyle \\sum_{n=1}^N (1/n^s)}\n\\]\nSEIRP: Search engine - information retrival in practice"
   }
 ]

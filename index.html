@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SEIRP">SEIRP <span class="quarto-category-count">(2)</span></div><div class="category" data-category="draft">draft <span class="quarto-category-count">(1)</span></div><div class="category" data-category="note">note <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -143,7 +143,94 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1665244800000" data-listing-file-modified-sort="1665329706535" data-listing-reading-time-sort="0.18">
+<div class="quarto-post image-right" data-index="0" data-categories="SEIRP" data-listing-date-sort="1665244800000" data-listing-file-modified-sort="1665333242975" data-listing-reading-time-sort="0.725">
+<div class="thumbnail">
+<a href="./posts/category-seirp/index.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/category-seirp/index.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/category-seirp/index.html">
+<h3 class="no-anchor listing-title">
+SEIRP: search engines - information retrieval in practice
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SEIRP'); return false;">
+SEIRP
+</div>
+</div>
+<a href="./posts/category-seirp/index.html">
+<div class="listing-description">
+<em>Search engines - information retrieval in practice</em> is a recommended book that shows a complete picture of search engine (web search, especially) and deliver detailed deep-dive into each engine components.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/category-seirp/index.html">
+<div class="listing-date">
+Oct 9, 2022
+</div>
+<div class="listing-author">
+Tian L.
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="note,SEIRP,draft" data-listing-date-sort="1665244800000" data-listing-file-modified-sort="1665333344567" data-listing-reading-time-sort="0.25">
+<div class="thumbnail">
+<p><a href="./posts/zipf_s-law/index.html"> <img src="./posts/zipf_s-law/zipf-distribution-cmf.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/zipf_s-law/index.html">
+<h3 class="no-anchor listing-title">
+Zipf’s law (draft)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
+note
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SEIRP'); return false;">
+SEIRP
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('draft'); return false;">
+draft
+</div>
+</div>
+<a href="./posts/zipf_s-law/index.html">
+<div class="listing-description">
+Zipf’s law is an <strong>empirical</strong> law formulated using mathematical statistics that refers to the fact that for many types of data studied in the physical and social sciences, the rank-frequency distribution is an inverse relation.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/zipf_s-law/index.html">
+<div class="listing-date">
+Oct 9, 2022
+</div>
+<div class="listing-author">
+Tian L.
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1665158400000" data-listing-file-modified-sort="1665330181898" data-listing-reading-time-sort="0.18">
+<div class="thumbnail">
+<a href="./posts/getting-started-with-personal-blog/index.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/getting-started-with-personal-blog/index.html"></a></p>
+</div>
 <div class="body">
 <a href="./posts/getting-started-with-personal-blog/index.html">
 <h3 class="no-anchor listing-title">
@@ -160,7 +247,7 @@ Hello everyone, I’m Tian. A software engineer working at Microsoft.
 <div class="metadata">
 <a href="./posts/getting-started-with-personal-blog/index.html">
 <div class="listing-date">
-Oct 9, 2022
+Oct 8, 2022
 </div>
 <div class="listing-author">
 Tian L.

@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/category-seirp/index.html",
+      "/posts/zipf_s-law/index.html",
       "/posts/getting-started-with-personal-blog/index.html"
     ]
   }
