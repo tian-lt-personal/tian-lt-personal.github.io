@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Tian's blog",
     "section": "",
-    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Oct 9, 2022\n\n\nTian L.\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -26,5 +26,12 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/getting-started-with-personal-blog/index.html",
+    "href": "posts/getting-started-with-personal-blog/index.html",
+    "title": "Getting started with personal blog",
+    "section": "",
+    "text": "This is my personal blog. I’d like to make it a technical notebook that records interesting ideas I read, I’m thinking, and to share with you.\nOctober, 2022"
   }
 ]
