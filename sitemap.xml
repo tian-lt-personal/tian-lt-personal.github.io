@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tian-lt-personal.github.io/about.html</loc>
-    <lastmod>2022-10-09T17:09:07.929Z</lastmod>
+    <lastmod>2022-10-10T19:28:09.909Z</lastmod>
   </url>
   <url>
     <loc>https://tian-lt-personal.github.io/index.html</loc>
-    <lastmod>2022-10-09T17:09:09.014Z</lastmod>
+    <lastmod>2022-10-10T19:28:11.088Z</lastmod>
   </url>
   <url>
     <loc>https://tian-lt-personal.github.io/posts/category-seirp/index.html</loc>
-    <lastmod>2022-10-09T17:09:09.712Z</lastmod>
+    <lastmod>2022-10-10T19:28:12.793Z</lastmod>
   </url>
   <url>
     <loc>https://tian-lt-personal.github.io/posts/getting-started-with-personal-blog/index.html</loc>
-    <lastmod>2022-10-09T17:09:10.315Z</lastmod>
+    <lastmod>2022-10-10T19:28:13.756Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tian-lt-personal.github.io/posts/image-blur-algos/index.html</loc>
+    <lastmod>2022-10-10T19:28:16.641Z</lastmod>
   </url>
   <url>
     <loc>https://tian-lt-personal.github.io/posts/zipf_s-law/index.html</loc>
-    <lastmod>2022-10-09T17:09:10.932Z</lastmod>
+    <lastmod>2022-10-10T19:28:17.797Z</lastmod>
   </url>
 </urlset>
