@@ -2,7 +2,6 @@
 title: "SEIRP: search engines - information retrieval in practice"
 author: "Tian L."
 date: "2022-10-09"
-reference-doc: https://en.wikipedia.org/wiki/Zipf%27s_law
 categories: [SEIRP]
 title-block-banner: false
 ---
