@@ -46,7 +46,7 @@
     "href": "posts/image-blur-algos/index.html",
     "title": "Image blurring algorithmns (draft)",
     "section": "",
-    "text": "Images can be filtered with either a high-pass filter or a low-pass filter. In general, high-pass filters are associated with the sharpening of an image and low-pass filters are associated with the smoothing of an image.\nAlgorithmns we are going to talk about in this post: 1. Box blur 1. Gaussian blur 1. Bokeh (DoF)"
+    "text": "Images can be filtered with either a high-pass filter or a low-pass filter. In general, high-pass filters are associated with the sharpening of an image and low-pass filters are associated with the smoothing of an image.\nAlgorithmns we are going to talk about in this post:"
   },
   {
     "objectID": "posts/image-blur-algos/index.html#box-blur",
