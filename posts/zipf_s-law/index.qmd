@@ -14,4 +14,4 @@ $$
 f(k; s, N) = \frac{1/k^s}{\displaystyle \sum_{n=1}^N (1/n^s)} 
 $$
 
-*SEIRP: Search engine - information retrival in practice*
+*SEIRP: Search engine - information retrieval in practice*

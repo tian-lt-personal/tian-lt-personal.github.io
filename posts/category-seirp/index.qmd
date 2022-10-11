@@ -6,7 +6,7 @@ categories: [SEIRP]
 title-block-banner: false
 ---
 
-*Search engines - information retrieval in practice* is a recommended book that shows a complete picture of search engine (web search, especially) and deliver detailed deep-dive into each engine components.
+*Search engines - information retrieval in practice* is a recommended book that shows a complete picture of search engine (web search, especially) and delivers a detailed deep-dive into each engine's components.
 
 I would like to use a category called ***SEIRP*** to mark the posts about the book.
 
@@ -21,12 +21,18 @@ I would like to use a category called ***SEIRP*** to mark the posts about the bo
 1. Evaluating Search Engines
 1. Classification and Clustering
 1. Social Search
-1. Beyong Bag of Words
+1. Beyond Bag of Words
 
-## Chapters that I would like to hightlight
+## Chapters that I would like to highlight
 
 ### Chapter 2 - Architecture of a Search Engine
-This chapter breaks down a search engine into well-define pieces, they are ***Text Acquisition, Text Transformation, Index Creation, User Interaction, Ranking, Evaluation***.
+This chapter breaks down a search engine into well-defined pieces, they are: 
+
+- Text Acquisition,
+- Text Transformation,
+- Index Creation,
+- User Interaction, and
+- Ranking, Evaluation.
 
 We can imagine a search pipeline like below picture:
 
