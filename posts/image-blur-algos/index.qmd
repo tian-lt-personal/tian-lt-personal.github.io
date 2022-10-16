@@ -1,5 +1,5 @@
 ---
-title: "Image blurring algorithmns (draft)"
+title: "Image blurring algorithms (draft)"
 author: "Tian L."
 date: "2022-10-11"
 categories: [graphics, image-processing, draft]
@@ -9,7 +9,7 @@ image: image.png
 
 Images can be filtered with either a high-pass filter or a low-pass filter. In general, high-pass filters are associated with the sharpening of an image and low-pass filters are associated with the smoothing of an image.
 
-Algorithmns we are going to talk about in this post:
+Algorithms we are going to talk about in this post:
 
 1. Box blur
 1. Gaussian blur
@@ -18,6 +18,29 @@ Algorithmns we are going to talk about in this post:
 ## Box blur
 
 ## Gaussian blur
+
+### Gaussian kernel
+The Gaussian kernel is defined in 1-D, 2-D, and N-D respectively as
+$$
+G_{1D}(x; \sigma) = \frac{1}{\sqrt{2\pi}\sigma}e^{- \textstyle \frac{x^2}{2\sigma^2}} \tag{1}
+$$
+$$
+G_{2D}(x, y; \sigma) = \frac{1}{2\pi \sigma^2}e^{- \textstyle \frac{x^2 + y^2}{2\sigma^2}} \tag{2}
+$$
+$$
+G_{ND}(\vec{x}; \sigma) = \frac{1}{(\sqrt{2\pi}\sigma)^N}e^{- \textstyle \frac{{\vert \vec{x} \vert}^2}{2\sigma^2}} \tag{3}
+$$
+
+### Gaussian kernel - separability
+The Gaussian kernel for dimensions higher than one, say N, can be described as a regular product of N one-dimension kernels:
+$$
+g_{ND}(\vec{x}; \sum^N_{i=1} \sigma_i) = \prod^N_{i=1} g_{1D}(x_i; \sigma_i)
+$$
+
+For example, a two-dimensional gaussian kernel can be a product of 2 one-dimensional kernels:
+$$
+g_{2D}(x, y; \sigma_1 + \sigma_2) = g_{1D}(x; \sigma_1)g_{1D}(y; \sigma_2)
+$$
 
 ## Bokeh (DoF)
 Bokeh, also known as depth-of-field. In photography, **bokeh** is the aesthetic quality of the blur produced in out-of-focus parts of an image.
@@ -32,3 +55,5 @@ Bokeh has also been defined as "the way the lens renders out-of-focus points of 
 - [Wikipedia - convolution](https://en.wikipedia.org/wiki/Convolution)
 
 - [Wikipedia - bokeh](https://en.wikipedia.org/wiki/Bokeh)
+
+- [3. The Gaussian kernel](https://pages.stat.wisc.edu/~mchung/teaching/MIA/reading/diffusion.gaussian.kernel.pdf.pdf)
